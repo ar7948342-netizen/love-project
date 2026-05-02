@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-blobs"></div>
+
+    <main class="container">
+        <!-- Page 1: Welcome -->
+        <section id="page1" class="page active">
+            <h1>Hey You! ✨</h1>
+            <p>I have something special to show you. Ready to start the journey?</p>
+            <button onclick="nextPage(2)">Let's Go →</button>
+        </section>
+
+        <!-- Page 2: The Message -->
+        <section id="page2" class="page">
+            <h1>The Connection 🌊</h1>
+            <p>Like waves to the shore, some things are just meant to be together.</p>
+            <button onclick="nextPage(3)">Next Magic →</button>
+        </section>
+
+        <!-- Page 3: Final Surprise -->
+        <section id="page3" class="page">
+            <h1>Always & Forever ♾️</h1>
+            <div class="interactive-area" id="sparkle-zone">
+                Move your mouse here!
+            </div>
+            <button onclick="nextPage(1)">Start Over</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
